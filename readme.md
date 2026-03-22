@@ -2,7 +2,7 @@
 
 Solve is a guess the combination game, created to learn and improve my C++ skill.
 
-The game will generate a random secret password, example: "@##$%" and your mission is to discover it using terminal input, when you try an answer the game will give you a [hint](#hint) and you need to improve your next answer based on that hint.
+The game will generate a random secret password, example: ```@##$%``` and your mission is to discover it using terminal input, when you try an answer the game will give you a [hint](#hint) and you need to improve your next answer based on that hint.
 
 ### Available Characters
 
@@ -18,13 +18,25 @@ Solve just accept five characters: ```#@!%&``` any other character will not be h
 
 ## Roadmap
 
-#### Game Mechanics
+### Game Mechanics
 
-- [ ] Password Generator & Comparator
-- [ ] Color Hint Handler
-- [ ] Input Handler
+#### Password Pipeline
+- [ ] Generate secret password
+- [ ] Password comparator
 
-#### User Interface
+#### Input handler
+- [ ] Validade input
+- [ ] Pass the input for password comparator
 
-- [ ] Game Interface
-- [ ] Debug Build Interface
+#### Color Hint Handler
+- [ ] Paint the user input with the correct colors
+
+### User Interface
+
+#### Debug Interface
+- [ ] Show secret password
+- [ ] Show entire pipeline
+
+#### User interface
+- [ ] Show previous user answers and hints
+- [ ] Game Options
